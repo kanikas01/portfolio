@@ -6,6 +6,7 @@ $(document).ready(function () {
   $('.parallax').parallax();
   $('.sidenav').sidenav();
   $('.fixed-action-btn').floatingActionButton();
+  $('.dropdown-trigger').dropdown();
 
 
   // ---------- Global Variables ---------- //
