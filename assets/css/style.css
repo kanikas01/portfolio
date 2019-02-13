@@ -1,3 +1,31 @@
+.nav-wrapper, .outer {
+  background-color: #204c7b;
+}
+.nav-wrapper a, .nav-wrapper h5, .nav-wrapper h6, .outer a, .outer h5, .outer h6 {
+  color: #F4B33E;
+}
 
+h5, h6 {
+  margin: unset;
+  padding-bottom: 10px;
+}
+
+nav .brand-logo {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  background-color: #204c7b;
+  color: #F4B33E;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.parallax-container {
+  height: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+$color_1: #204c7b;
+$color_2: #F4B33E;
+$color_3: #FFFFFF;
+
+.nav-wrapper, .outer {
+  background-color: $color_1;
+  a, h5, h6 {
+    color: $color_2;
+  }
+}
+
+h5, h6 {
+  margin: unset;
+  padding-bottom: 10px;
+}
+
+nav .brand-logo {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  background-color: $color_1;
+  color: $color_2;
+}
+
+a {
+    color: $color_3;
+  }
+
+.parallax-container {
+  height: 200px;
+}
+
+
