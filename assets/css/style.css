@@ -18,4 +18,10 @@ nav {
   height: 110px;
 }
 
+@media only screen and (max-width: 992px) {
+  .card-action a {
+    margin-right: 0 !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
