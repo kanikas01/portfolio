@@ -1,5 +1,5 @@
 #logo-container {
-  width: 250px;
+  width: 300px;
 }
 
 h1 {
@@ -12,6 +12,10 @@ h1 {
 
 nav {
   background-color: #204c7b;
+}
+
+.card-content {
+  height: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */

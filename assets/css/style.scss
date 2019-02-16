@@ -3,7 +3,7 @@ $color_2: #F4B33E;
 $color_3: #FFFFFF;
 
 #logo-container {
-  width: 250px;
+  width: 300px;
 }
 
 h1 {
@@ -16,4 +16,8 @@ h1 {
 
 nav {
   background-color: $color_1;
+}
+
+.card-content {
+  height: 110px;
 }
