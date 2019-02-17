@@ -1,25 +1,59 @@
 $color_1: #204c7b;
 $color_2: #F4B33E;
-$color_3: #FFFFFF;
+$color_3: #EEEEEE;
 
 #logo-container {
   width: 300px;
+  font-weight: 500;
 }
 
 h1 {
-  margin-top: 8rem;
+  margin-top: 7rem;
+  color: transparent;
+  text-shadow: 2px 2px 8px $color_3;
 }
 
 .parallax-container {
   height: 350px;
 }
 
-nav {
-  background-color: $color_1;
+body, nav, #sidenav a, .nav-wrapper a {
+  color: $color_1;
+  background-color: $color_3; 
+}
+
+.sidenav {
+  height: 250px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.last-element {
+  padding-bottom: 4rem !important;
+}
+
+#portfolio {
+  background-color: $color_3;
 }
 
 .card-content {
   height: 110px;
+}
+
+.dropdown-content li a {
+  color: $color_1;
+}
+
+.btn-floating, .btn-floating:hover {
+  background-color: $color_2;
+}
+
+#sidenav li a:hover {
+  color: $color_2;
+}
+
+#menu-button {
+  font-size: 32px;
 }
 
 @media only screen and (max-width: 992px) {

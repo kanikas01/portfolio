@@ -1,21 +1,55 @@
 #logo-container {
   width: 300px;
+  font-weight: 500;
 }
 
 h1 {
-  margin-top: 8rem;
+  margin-top: 7rem;
+  color: transparent;
+  text-shadow: 2px 2px 8px #EEEEEE;
 }
 
 .parallax-container {
   height: 350px;
 }
 
-nav {
-  background-color: #204c7b;
+body, nav, #sidenav a, .nav-wrapper a {
+  color: #204c7b;
+  background-color: #EEEEEE;
+}
+
+.sidenav {
+  height: 250px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.last-element {
+  padding-bottom: 4rem !important;
+}
+
+#portfolio {
+  background-color: #EEEEEE;
 }
 
 .card-content {
   height: 110px;
+}
+
+.dropdown-content li a {
+  color: #204c7b;
+}
+
+.btn-floating, .btn-floating:hover {
+  background-color: #F4B33E;
+}
+
+#sidenav li a:hover {
+  color: #F4B33E;
+}
+
+#menu-button {
+  font-size: 32px;
 }
 
 @media only screen and (max-width: 992px) {
