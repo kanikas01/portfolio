@@ -6,7 +6,7 @@
 h1 {
   margin-top: 7rem;
   color: transparent;
-  text-shadow: 2px 2px 8px #EEEEEE;
+  text-shadow: 2px 2px 7px #FEFEFE;
 }
 
 .parallax-container {
@@ -15,7 +15,7 @@ h1 {
 
 body, nav, #sidenav a, .nav-wrapper a {
   color: #204c7b;
-  background-color: #EEEEEE;
+  background-color: #FEFEFE;
 }
 
 .sidenav {
@@ -29,7 +29,7 @@ body, nav, #sidenav a, .nav-wrapper a {
 }
 
 #portfolio {
-  background-color: #EEEEEE;
+  background-color: #FEFEFE;
 }
 
 .card-content {
