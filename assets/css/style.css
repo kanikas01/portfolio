@@ -24,6 +24,10 @@ body, nav, #sidenav a, .nav-wrapper a {
   overflow: hidden;
 }
 
+.dropdown-trigger {
+  font-weight: 500;
+}
+
 .last-element {
   padding-bottom: 4rem !important;
 }

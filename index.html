@@ -13,10 +13,24 @@
 <body>
 
   <div class="navbar-fixed">
+
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about-me">About</a></li>
+      <li><a href="https://www.linkedin.com/in/kurtstatham/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://github.com/kanikas01" target="_blank" rel="noopener noreferrer">Github</a></li>
+      <li><a href="assets/docs/resume.pdf" class="last-element" target="_blank" rel="noopener noreferrer">Resume & Contact Info</a></li>
+    </ul>
+    
     <nav>
       <div class="nav-wrapper">
-        <a href="#" data-target="sidenav" class="sidenav-trigger show-on-large"><i class="large material-icons" id="menu-button">menu</i></a> 
+        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="large material-icons" id="menu-button">menu</i></a> 
         <a id="logo-container" href="#" class="brand-logo center">KURT STATHAM</a>
+        <ul class="hide-on-med-and-down">
+          <!-- Dropdown Trigger -->
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown1">MORE INFO<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
       </div>
     </nav>
   </div>
@@ -29,20 +43,7 @@
     <li><a href="assets/docs/resume.pdf" class="last-element" target="_blank" rel="noopener noreferrer">Resume and Contact Info</a></li>
   </ul>
 
-  <!-- <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#portfolio">Projects</a></li>
-    <li><a href="#about-me">About</a></li>
-    <li><a href="#about-me">Contact</a></li>
-  </ul>
-  <nav>
-    <div class="nav-wrapper">
-      <a id="logo-container" href="#" class="brand-logo center">KURT STATHAM</a>
-      <ul class="">
-        <li><a class="dropdown-trigger" data-target="dropdown1"><i
-              class="material-icons right">menu</i></a></li>
-      </ul>
-    </div>
-  </nav> -->
+  
 
   <main>
     <div class="parallax-container">
@@ -151,7 +152,7 @@
       </div>
     </div>
 
-    <div class="fixed-action-btn">
+    <div class="fixed-action-btn hide-on-med-and-down">
       <a class="btn-floating btn-large">
         <i class="large material-icons">add</i>
       </a>
