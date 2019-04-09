@@ -10,16 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+  <script defer src="assets/javascript/main.js"></script>
 </head>
 <body>
-
-  <!-- Show contact info elegantly on mobile -->
-  <script>
-    function closeNavOpenTap () {
-      $('.sidenav').sidenav('close'); 
-      $('.tap-target').tapTarget('open')
-    }
-  </script>
 
   <div class="navbar-fixed">
     <nav>
@@ -44,7 +37,7 @@
     <li><a href="https://www.linkedin.com/in/kurtstatham/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     <li><a href="https://github.com/kanikas01" target="_blank" rel="noopener noreferrer">Github</a></li>
     <li><a href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
-    <li><a class="last-element" onclick="closeNavOpenTap();">Contact</a></li>
+    <li><a class="last-element" id="sidebar-contact">Contact</a></li>
   </ul>
   
   <main>
@@ -253,6 +246,5 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="assets/javascript/main.js"></script>
 </body>
 </html>

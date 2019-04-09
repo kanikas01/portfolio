@@ -71,6 +71,10 @@ body, nav, #sidenav a, .nav-wrapper a {
   }
 }
 
+#sidebar-contact:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 992px) {
   .card-action a {
     margin-right: 0 !important;

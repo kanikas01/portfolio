@@ -9,14 +9,13 @@ $(document).ready(function () {
   $('.dropdown-trigger').dropdown();
   $('.tap-target').tapTarget();
 
-  // ---------- Global Variables ---------- //
+  // Show contact info elegantly on mobile
+  function closeNavOpenTap() {
+    $('.sidenav').sidenav('close'); 
+    $('.tap-target').tapTarget('open');
+  }
 
-  // ---------- Selectors ---------- //
-
-  // ---------- Classes ---------- //
-
-  // ---------- Events ---------- //
-
-  // ---------- Helpers ---------- //
-
+  // Add event listener to the "Contact" link in sidebar
+  $("#sidebar-contact").on("click", closeNavOpenTap);
+  
 });
