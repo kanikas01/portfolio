@@ -23,7 +23,7 @@ body, nav, #sidenav a, .nav-wrapper a {
 }
 
 .sidenav {
-  height: 250px;
+  height: 290px;
   text-transform: uppercase;
   overflow: hidden;
 }
@@ -62,6 +62,13 @@ body, nav, #sidenav a, .nav-wrapper a {
 
 .brand-logo {
   margin-left: 10px;
+}
+
+.tap-target-content {
+  h5, p {
+    padding-left: 4rem;
+    color: $color_1;
+  }
 }
 
 @media only screen and (max-width: 992px) {

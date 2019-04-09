@@ -13,6 +13,14 @@
 </head>
 <body>
 
+  <!-- Shows contact info elegantly on mobile -->
+  <script>
+    function closeNavOpenTap () {
+      $('.sidenav').sidenav('close'); 
+      $('.tap-target').tapTarget('open')
+    }
+  </script>
+
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper z-depth-1">
@@ -23,7 +31,8 @@
           <li><a href="#about-me">About</a></li>
           <li><a href="https://www.linkedin.com/in/kurtstatham/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           <li><a href="https://github.com/kanikas01" target="_blank" rel="noopener noreferrer">Github</a></li>
-          <li><a href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Resume and Contact Info</a></li>
+          <li><a href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+          <li><a onclick="$('.tap-target').tapTarget('open')">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -34,7 +43,8 @@
     <li><a href="#about-me">About</a></li>
     <li><a href="https://www.linkedin.com/in/kurtstatham/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     <li><a href="https://github.com/kanikas01" target="_blank" rel="noopener noreferrer">Github</a></li>
-    <li><a href="assets/docs/resume.pdf" class="last-element" target="_blank" rel="noopener noreferrer">Resume and Contact Info</a></li>
+    <li><a href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+    <li><a class="last-element" onclick="closeNavOpenTap();">Contact</a></li>
   </ul>
   
   <main>
@@ -219,14 +229,25 @@
       </div>
     </div>
 
-    <div class="fixed-action-btn hide-on-med-and-down">
-      <a class="btn-floating btn-large">
+    <div class="fixed-action-btn">
+        <a id="menu" class="waves-effect waves-light btn btn-floating" onclick="$('.tap-target').tapTarget('open')">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <div class="tap-target white" data-target="menu">
+            <div class="tap-target-content">
+              <h5>Kurt Statham</h5>
+              <h5>larvakurt@gmail.com</h5>
+              <h5>415 321 0979</h5>
+            </div>
+          </div>
+      <!-- <a class="btn-floating btn-large">
         <i class="large material-icons">add</i>
       </a>
       <ul>
         <li><a href="https://www.linkedin.com/in/kurtstatham/" class="btn-floating waves-effect waves-light" target="_blank" rel="noopener noreferrer"><img src="assets/images/ln-40-px.png"></a></li>
         <li><a href="https://github.com/kanikas01" class="btn-floating white waves-effect waves-light" target="_blank" rel="noopener noreferrer"><img src="assets/images/GitHub-Mark-40px.png"></a></li>
-      </ul>
+      </ul> -->
     </div>
   </main>
   

@@ -7,7 +7,7 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
   $('.fixed-action-btn').floatingActionButton();
   $('.dropdown-trigger').dropdown();
-
+  $('.tap-target').tapTarget();
 
   // ---------- Global Variables ---------- //
 

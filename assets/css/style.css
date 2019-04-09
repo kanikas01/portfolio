@@ -19,7 +19,7 @@ body, nav, #sidenav a, .nav-wrapper a {
 }
 
 .sidenav {
-  height: 250px;
+  height: 290px;
   text-transform: uppercase;
   overflow: hidden;
 }
@@ -58,6 +58,11 @@ body, nav, #sidenav a, .nav-wrapper a {
 
 .brand-logo {
   margin-left: 10px;
+}
+
+.tap-target-content h5, .tap-target-content p {
+  padding-left: 4rem;
+  color: #204c7b;
 }
 
 @media only screen and (max-width: 992px) {
