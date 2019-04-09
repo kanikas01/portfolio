@@ -56,9 +56,17 @@ body, nav, #sidenav a, .nav-wrapper a {
   font-size: 32px;
 }
 
+.brand-logo {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 992px) {
   .card-action a {
     margin-right: 0 !important;
+  }
+
+  .brand-logo {
+    margin-left: unset;
   }
 }
 
