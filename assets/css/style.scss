@@ -85,3 +85,9 @@ body, nav, #sidenav a, .nav-wrapper a {
     margin-left: unset;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
