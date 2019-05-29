@@ -75,6 +75,12 @@ body, nav, #sidenav a, .nav-wrapper a {
   cursor: pointer;
 }
 
+.devicon {
+  font-size: 4rem;
+  padding: 20px;
+  line-height: 6rem;
+}
+
 @media only screen and (max-width: 992px) {
   .card-action a {
     margin-right: 0 !important;

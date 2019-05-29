@@ -69,6 +69,16 @@ body, nav, #sidenav a, .nav-wrapper a {
   cursor: pointer;
 }
 
+.skills-body {
+  margin-top: 3rem;
+}
+
+.devicon {
+  font-size: 5rem;
+  padding: 10px;
+  line-height: 6rem;
+}
+
 @media only screen and (max-width: 992px) {
   .card-action a {
     margin-right: 0 !important;
